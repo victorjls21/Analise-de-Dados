@@ -1,6 +1,6 @@
 # src/models/pessoa.py
 
-from services.cpf_service import validar_cpf 
+from cpf_service import validar_cpf 
 
 class Pessoa:
     PREPOSICOES = {'da', 'de', 'do', 'das', 'dos', 'e'}

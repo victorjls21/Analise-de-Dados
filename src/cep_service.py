@@ -1,8 +1,7 @@
 import requests
 
 class CEPService:
-    @staticmethod
-    def buscar_por_cep(cep: str) -> dict:
+    def buscar_por_cep(self, cep: str) -> dict:
         cep = cep.replace("-", "").strip()
         url = f"https://viacep.com.br/ws/{cep}/json/"
 
@@ -17,3 +16,4 @@ class CEPService:
             pass
 
         return {}
+
