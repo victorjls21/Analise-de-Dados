@@ -51,8 +51,8 @@ analise_dados/
 | Campo         | Regras e Ações |
 |---------------|----------------|
 | **Nome**      | Convertido para *Camel Case*, extrai primeiro e segundo nome. |
-| **Gênero**    | Inferido via API (escolhível entre `genderize.io`, `genderapi.io`, `gender-api.com`). |
-| **Celular**   | Valida formato, adiciona DDD via CEP, corrige ausência do dígito 9. |
+| **Gênero**    | EM ANDAMENTO*  |
+| **Celular**   | EM ANDAMENTO* |
 | **CPF**       | Mantido apenas dígitos, validado pelos dígitos verificadores. |
 | **CEP**       | Utiliza a API do ViaCEP para obter bairro, cidade e estado. |
 | **Observações** | Lista de avisos como "CPF inválido", "celular ausente", etc. |
