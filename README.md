@@ -1,4 +1,4 @@
-# 📊 Sistema de Análise e Normalização de Dados de Clientes
+# 📊 Sistema de Análise e Normalização de Dados de Clientes (EM ANDAMENTO)
 
 Projeto em Python que lê dados de um arquivo CSV com informações de clientes, normaliza e valida os dados utilizando conceitos de **Programação Orientada a Objetos (POO)**, APIs externas e geração de relatórios analíticos.
 
