@@ -80,4 +80,3 @@ analise_dados/
     }
   ]
 }
-```g

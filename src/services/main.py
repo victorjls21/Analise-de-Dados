@@ -20,12 +20,17 @@ p = Pessoa(
 
 p.normalizar_nome()
 p.validar_cpf()
+p.validar_cep()
+p.normalizar_celular()
 
 print("\nTeste de normalização e validação:")
 print(f"Nome completo: {p.nome_completo}")
 print(f"Primeiro nome: {p.primeiro_nome}")
 print(f"Segundo nome: {p.segundo_nome}")
 print(f"CPF: {p.cpf}")
+print(f"Endereço: {p.endereco}")
+print(f"Celular: {p.celular}")
 print(f"Observações: {p.observacoes}")
+
 
 
